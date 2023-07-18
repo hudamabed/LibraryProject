@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="BooksCollectionViewCell" customModule="University_Library" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="422" height="176"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="422" height="176"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DyK-qn-L20">
+                        <rect key="frame" x="0.0" y="0.0" width="422" height="176"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="El2-iX-Waj">
+                                <rect key="frame" x="0.0" y="0.0" width="422" height="176"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="EAg-Ez-D7I">
+                                        <rect key="frame" x="0.0" y="0.0" width="422" height="176"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="12W-u9-VKx">
+                                                <rect key="frame" x="15" y="15" width="392" height="39"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="books" translatesAutoresizingMaskIntoConstraints="NO" id="JML-a3-2Dm">
+                                                        <rect key="frame" x="0.0" y="0.0" width="30" height="39"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="JML-a3-2Dm" secondAttribute="height" multiplier="10:13" id="hME-dB-eOo"/>
+                                                            <constraint firstAttribute="width" constant="30" id="lwQ-Gz-Hnp" userLabel="width = 40"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cig-Ni-Ybt">
+                                                        <rect key="frame" x="372" y="0.0" width="20" height="39"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="20" id="olL-mN-Z7K"/>
+                                                        </constraints>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="icBlueMoreOption"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="xK0-lN-bSh">
+                                                <rect key="frame" x="15" y="69" width="392" height="92"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="loA-wk-NiO">
+                                                        <rect key="frame" x="0.0" y="0.0" width="392" height="19.333333333333332"/>
+                                                        <fontDescription key="fontDescription" name="ArialHebrew" family="Arial Hebrew" pointSize="18"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xHC-b8-XHA">
+                                                        <rect key="frame" x="0.0" y="77" width="392" height="15"/>
+                                                        <fontDescription key="fontDescription" name="ArialHebrew-Light" family="Arial Hebrew" pointSize="14"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <directionalEdgeInsets key="directionalLayoutMargins" top="15" leading="15" bottom="15" trailing="15"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="EAg-Ez-D7I" firstAttribute="top" secondItem="El2-iX-Waj" secondAttribute="top" id="KNT-pE-eH1"/>
+                                    <constraint firstAttribute="bottom" secondItem="EAg-Ez-D7I" secondAttribute="bottom" id="NPJ-2m-f02"/>
+                                    <constraint firstItem="EAg-Ez-D7I" firstAttribute="leading" secondItem="El2-iX-Waj" secondAttribute="leading" id="a9r-hD-xVS"/>
+                                    <constraint firstAttribute="trailing" secondItem="EAg-Ez-D7I" secondAttribute="trailing" id="eK9-Ua-xhG"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="DyK-qn-L20" secondAttribute="bottom" id="Hus-zo-ahV"/>
+                <constraint firstItem="DyK-qn-L20" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="POd-PN-26V"/>
+                <constraint firstAttribute="trailing" secondItem="DyK-qn-L20" secondAttribute="trailing" id="sFu-s2-DDR"/>
+                <constraint firstItem="DyK-qn-L20" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="sXL-bJ-nC9"/>
+            </constraints>
+            <size key="customSize" width="422" height="176"/>
+            <connections>
+                <outlet property="btnDelete" destination="cig-Ni-Ybt" id="0bm-bV-IOG"/>
+                <outlet property="imgBook" destination="JML-a3-2Dm" id="WRF-7c-2N0"/>
+                <outlet property="lblAuthor" destination="xHC-b8-XHA" id="vVh-KQ-TKD"/>
+                <outlet property="lblTitle" destination="loA-wk-NiO" id="J0M-MR-VcX"/>
+                <outlet property="stackView" destination="EAg-Ez-D7I" id="bw4-7v-8I7"/>
+            </connections>
+            <point key="canvasLocation" x="328.24427480916029" y="43.661971830985919"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="books" width="512" height="512"/>
+        <image name="icBlueMoreOption" width="3" height="15"/>
+    </resources>
+</document>
