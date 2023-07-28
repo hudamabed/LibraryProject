@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9212379C2A73C82300F14ABA /* AddEmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212379B2A73C82300F14ABA /* AddEmployeeViewController.swift */; };
+		9212379F2A73CB5A00F14ABA /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212379E2A73CB5A00F14ABA /* AddStudentViewController.swift */; };
 		921FD05C2A684E3F009BFC47 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921FD05B2A684E3F009BFC47 /* LoginViewController.swift */; };
 		923823E82A6C75A4008EF414 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923823E72A6C75A4008EF414 /* MenuViewController.swift */; };
 		923823EE2A6C7A56008EF414 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923823EC2A6C7A56008EF414 /* MenuTableViewCell.swift */; };
@@ -42,7 +44,6 @@
 		9295C5512A6FF0CF0067D27F /* BookDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9295C54F2A6FF0CF0067D27F /* BookDetailsTableViewCell.xib */; };
 		9295C5562A7131260067D27F /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295C5552A7131260067D27F /* Details.swift */; };
 		9295C5582A7131310067D27F /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295C5572A7131310067D27F /* Book.swift */; };
-		9295C55E2A715DF10067D27F /* AddEmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295C55D2A715DF10067D27F /* AddEmployeeViewController.swift */; };
 		92B8271F2A719BA3002A1CB0 /* EmployeeProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B8271D2A719BA3002A1CB0 /* EmployeeProfileTableViewCell.swift */; };
 		92B827202A719BA3002A1CB0 /* EmployeeProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92B8271E2A719BA3002A1CB0 /* EmployeeProfileTableViewCell.xib */; };
 		92F3071F2A6AE719008CA53E /* BooksCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F3071D2A6AE719008CA53E /* BooksCollectionViewCell.swift */; };
@@ -51,6 +52,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9212379B2A73C82300F14ABA /* AddEmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmployeeViewController.swift; sourceTree = "<group>"; };
+		9212379E2A73CB5A00F14ABA /* AddStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddStudentViewController.swift; path = "University Library/ViewControllers/Add/AddStudentViewController.swift"; sourceTree = SOURCE_ROOT; };
 		921FD05B2A684E3F009BFC47 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		923823E72A6C75A4008EF414 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		923823EC2A6C7A56008EF414 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
@@ -88,8 +91,6 @@
 		9295C54F2A6FF0CF0067D27F /* BookDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookDetailsTableViewCell.xib; sourceTree = "<group>"; };
 		9295C5552A7131260067D27F /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
 		9295C5572A7131310067D27F /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
-		9295C55D2A715DF10067D27F /* AddEmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmployeeViewController.swift; sourceTree = "<group>"; };
-		9295C55F2A715E340067D27F /* AddStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
 		9295C5602A715E360067D27F /* AddDoctorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDoctorViewController.swift; sourceTree = "<group>"; };
 		92B8271D2A719BA3002A1CB0 /* EmployeeProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeProfileTableViewCell.swift; sourceTree = "<group>"; };
 		92B8271E2A719BA3002A1CB0 /* EmployeeProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeProfileTableViewCell.xib; sourceTree = "<group>"; };
@@ -109,6 +110,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9212379A2A73C80500F14ABA /* Add Employee */ = {
+			isa = PBXGroup;
+			children = (
+				9212379B2A73C82300F14ABA /* AddEmployeeViewController.swift */,
+			);
+			path = "Add Employee";
+			sourceTree = "<group>";
+		};
+		9212379D2A73CB3000F14ABA /* Add Student */ = {
+			isa = PBXGroup;
+			children = (
+				9212379E2A73CB5A00F14ABA /* AddStudentViewController.swift */,
+			);
+			path = "Add Student";
+			sourceTree = "<group>";
+		};
 		923823E92A6C75AC008EF414 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
@@ -341,8 +358,8 @@
 		9295C5592A715D9E0067D27F /* Add */ = {
 			isa = PBXGroup;
 			children = (
-				9295C55C2A715DC70067D27F /* Add Employee */,
-				9295C55B2A715DBA0067D27F /* Add Student */,
+				9212379D2A73CB3000F14ABA /* Add Student */,
+				9212379A2A73C80500F14ABA /* Add Employee */,
 				9295C55A2A715DB20067D27F /* Add Doctor */,
 				9295C53C2A6ED1130067D27F /* Add Book */,
 			);
@@ -355,22 +372,6 @@
 				9295C5602A715E360067D27F /* AddDoctorViewController.swift */,
 			);
 			path = "Add Doctor";
-			sourceTree = "<group>";
-		};
-		9295C55B2A715DBA0067D27F /* Add Student */ = {
-			isa = PBXGroup;
-			children = (
-				9295C55F2A715E340067D27F /* AddStudentViewController.swift */,
-			);
-			path = "Add Student";
-			sourceTree = "<group>";
-		};
-		9295C55C2A715DC70067D27F /* Add Employee */ = {
-			isa = PBXGroup;
-			children = (
-				9295C55D2A715DF10067D27F /* AddEmployeeViewController.swift */,
-			);
-			path = "Add Employee";
 			sourceTree = "<group>";
 		};
 		92B8271C2A719B78002A1CB0 /* Employee Profile */ = {
@@ -500,6 +501,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				921FD05C2A684E3F009BFC47 /* LoginViewController.swift in Sources */,
+				9212379F2A73CB5A00F14ABA /* AddStudentViewController.swift in Sources */,
 				9295C5462A6EF2760067D27F /* BookDetailsViewController.swift in Sources */,
 				9295C5432A6EF2550067D27F /* changePasswordViewController.swift in Sources */,
 				92B8271F2A719BA3002A1CB0 /* EmployeeProfileTableViewCell.swift in Sources */,
@@ -515,7 +517,6 @@
 				924C3C222A66EA7E00DF5E19 /* IntroViewController.swift in Sources */,
 				923823EE2A6C7A56008EF414 /* MenuTableViewCell.swift in Sources */,
 				923823E82A6C75A4008EF414 /* MenuViewController.swift in Sources */,
-				9295C55E2A715DF10067D27F /* AddEmployeeViewController.swift in Sources */,
 				924FB1002A672ADE0015AB44 /* UITabBarEx.swift in Sources */,
 				9295C5582A7131310067D27F /* Book.swift in Sources */,
 				924FB0FC2A672ADE0015AB44 /* UIColorEx.swift in Sources */,
@@ -528,6 +529,7 @@
 				924C3C202A66EA7E00DF5E19 /* SceneDelegate.swift in Sources */,
 				924FB1042A672ADE0015AB44 /* UIStringEx.swift in Sources */,
 				9295C5562A7131260067D27F /* Details.swift in Sources */,
+				9212379C2A73C82300F14ABA /* AddEmployeeViewController.swift in Sources */,
 				924FB0FA2A672ADE0015AB44 /* UIViewEx.swift in Sources */,
 				923823F62A6D36EC008EF414 /* UserProfile.swift in Sources */,
 				923823F32A6D2B22008EF414 /* UIViewControllerEx.swift in Sources */,
