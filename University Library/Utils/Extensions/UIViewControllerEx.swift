@@ -21,25 +21,8 @@ extension UIViewController {
             
     }
     
-//    var topMostViewController:  UIViewController? {
-//        if let navigationController = self as? UINavigationController {
-//            return navigationController.topViewController?.topMostViewController
-//        }
-//        else if let tabBarController = self as? UITabBarController {
-//            if let selectedViewController = tabBarController.selectedViewController {
-//                return selectedViewController.topMostViewController
-//            }
-//            return tabBarController.topMostViewController
-//        }
-//            
-//        else if let presentedViewController = self.presentedViewController {
-//            return presentedViewController.topMostViewController
-//        }  
-//        
-//        else {
-//            return self
-//        }
-//    }
+//
+    
     
     
     func getStatusBarHeight() -> CGFloat {
@@ -53,8 +36,52 @@ extension UIViewController {
        return statusBarHeight
    }
     
+    func push(){
+        AppDelegate.shared?.rootNavigationController?.pushViewController(self, animated: true)
+    }
     
-//b
+    func pushWithoutAnimated(){
+        AppDelegate.shared?.rootNavigationController?.pushViewController(self, animated: false)
+    }
+    
+    func pop(){
+        AppDelegate.shared?.rootNavigationController?.popViewController(animated: true)
+    
+    }
+    
+    func rootPush(){
+        AppDelegate.shared?.rootNavigationController?.setViewControllers([self], animated: true)
+    
+    }
+    
+    func presenVC(){
+        AppDelegate.shared?.rootNavigationController?.present(self, animated: true, completion: nil)
+        
+    }
+    
+    
+//    func push(){
+//        AppDelegate.shared?.rootNavigationController?.pushViewController(self, animated: true)
+//    }
+//
+//    func pushWithoutAnimated(){
+//        AppDelegate.shared?.rootNavigationController?.pushViewController(self, animated: false)
+//    }
+//
+//    func pop(){
+//        AppDelegate.shared?.rootNavigationController?.popViewController(animated: true)
+//
+//    }
+//
+//    func rootPush(){
+//        AppDelegate.shared?.rootNavigationController?.setViewControllers([self], animated: true)
+//
+//    }
+//
+//    func presenVC(){
+//        AppDelegate.shared?.rootNavigationController?.present(self, animated: true, completion: nil)
+//
+//    }
      
     func  safeperformSegue(withIdentifier identifier : String , sender: Any?) {
         if canPerformSegue(identifier: identifier){
@@ -83,22 +110,31 @@ extension UIViewController {
         
     }
     
+    func showAlertError(title: String?, message : String?){
+        
+        let alert = UIAlertController.init(title: title, message: message  , preferredStyle: UIAlertController.Style.alert)
+        let okayAction = UIAlertAction.init(title: "OK", style: UIAlertAction.Style.default)
+    
+        alert.addAction(okayAction)
+        alert.presenVC()
+   }
+    
     func showAlertMessage(message : String? ){
-
+        
         let alert = UIAlertController.init(title: "Message" , message: message  , preferredStyle: UIAlertController.Style.alert)
         let okayAction = UIAlertAction.init(title: "OK", style: UIAlertAction.Style.default)
-
+      
         alert.addAction(okayAction)
-        //alert.presenVC()
+        alert.presenVC()
    }
-
+    
     func showAlertError( message : String?){
-
+        
         let alert = UIAlertController.init(title: "Error", message: message  , preferredStyle: UIAlertController.Style.alert)
         let okayAction = UIAlertAction.init(title: "OK", style: UIAlertAction.Style.default)
-
+    
         alert.addAction(okayAction)
-        //alert.presenVC()
+        alert.presenVC()
    }
     
     
@@ -119,7 +155,7 @@ extension UIViewController {
       
         alert.addAction(okayAction)
         alert.addAction(cancelAction)
-     //   alert.presenVC()
+        alert.presenVC()
    }
     
     
@@ -142,7 +178,7 @@ extension UIViewController {
         alert.addAction(okayAction)
         alert.addAction(cancelAction)
         alert.addAction(LaterAction)
-        //alert.presenVC()
+        alert.presenVC()
    }
     
     
@@ -163,7 +199,7 @@ extension UIViewController {
         actionSheet.addAction(cancelAction)
         actionSheet.addAction(LaterAction)
         
-        //actionSheet.presenVC()
+        actionSheet.presenVC()
     
     }
 }
