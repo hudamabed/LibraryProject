@@ -5,7 +5,6 @@
 //  Created by Huda M. A'abed on 24/07/2023.
 //
 
-// nnnnnnn
 import UIKit
 class BookDetailsViewController: UIViewController {
     
@@ -22,8 +21,6 @@ class BookDetailsViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         isHidNavigation = false
-
-        
     }
 }
 
@@ -59,12 +56,11 @@ extension BookDetailsViewController: UITableViewDelegate, UITableViewDataSource 
         cell.object = obj
         cell.configureCell()
         return cell
-        
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 50
+        
     }
-    
 }
 
