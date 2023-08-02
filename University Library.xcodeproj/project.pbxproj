@@ -53,7 +53,7 @@
 
 /* Begin PBXFileReference section */
 		9212379B2A73C82300F14ABA /* AddEmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmployeeViewController.swift; sourceTree = "<group>"; };
-		9212379E2A73CB5A00F14ABA /* AddStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddStudentViewController.swift; path = "University Library/ViewControllers/Add/AddStudentViewController.swift"; sourceTree = SOURCE_ROOT; };
+		9212379E2A73CB5A00F14ABA /* AddStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddStudentViewController.swift; path = "University Library/ViewControllers/Add/Add Student1/AddStudentViewController.swift"; sourceTree = SOURCE_ROOT; };
 		921FD05B2A684E3F009BFC47 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		923823E72A6C75A4008EF414 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		923823EC2A6C7A56008EF414 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
@@ -121,7 +121,6 @@
 		9212379D2A73CB3000F14ABA /* Add Student */ = {
 			isa = PBXGroup;
 			children = (
-				9212379E2A73CB5A00F14ABA /* AddStudentViewController.swift */,
 			);
 			path = "Add Student";
 			sourceTree = "<group>";
@@ -158,6 +157,14 @@
 				923823F52A6D36EC008EF414 /* UserProfile.swift */,
 			);
 			path = User;
+			sourceTree = "<group>";
+		};
+		924145942A7AB09A00B1A48B /* Add Student1 */ = {
+			isa = PBXGroup;
+			children = (
+				9212379E2A73CB5A00F14ABA /* AddStudentViewController.swift */,
+			);
+			path = "Add Student1";
 			sourceTree = "<group>";
 		};
 		924C3C112A66EA7E00DF5E19 = {
@@ -358,6 +365,7 @@
 		9295C5592A715D9E0067D27F /* Add */ = {
 			isa = PBXGroup;
 			children = (
+				924145942A7AB09A00B1A48B /* Add Student1 */,
 				9212379D2A73CB3000F14ABA /* Add Student */,
 				9212379A2A73C80500F14ABA /* Add Employee */,
 				9295C55A2A715DB20067D27F /* Add Doctor */,

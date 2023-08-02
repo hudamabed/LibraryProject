@@ -26,14 +26,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="339" height="105"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X7k-Ky-hYM">
-                                        <rect key="frame" x="25" y="10" width="49" height="85"/>
-                                        <fontDescription key="fontDescription" name="AlNile" family="Al Nile" pointSize="20"/>
+                                        <rect key="frame" x="25.000000000000004" y="10" width="39.333333333333343" height="85"/>
+                                        <fontDescription key="fontDescription" name="ArialHebrew" family="Arial Hebrew" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xl8-rR-bQ9">
-                                        <rect key="frame" x="269.66666666666669" y="10" width="44.333333333333314" height="85"/>
-                                        <fontDescription key="fontDescription" name="AlNile" family="Al Nile" pointSize="18"/>
+                                        <rect key="frame" x="274.66666666666669" y="10" width="39.333333333333314" height="85"/>
+                                        <fontDescription key="fontDescription" name="ArialHebrew" family="Arial Hebrew" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>

@@ -26,6 +26,7 @@ class LoginViewController: UIViewController {
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        self.isHidNavigation = true
     }
     
     @IBAction func btnLogin(_ sender: Any) {

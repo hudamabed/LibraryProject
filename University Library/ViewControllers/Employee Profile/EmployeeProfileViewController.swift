@@ -34,7 +34,6 @@ class EmployeeProfileViewController: UIViewController {
 extension EmployeeProfileViewController {
     func setupView(){
         tableView.registerXib(cell: EmployeeProfileTableViewCell.self)
-        
     }
     
     func localized(){
@@ -52,8 +51,6 @@ extension EmployeeProfileViewController {
     }
 }
 
-
-
 extension EmployeeProfileViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return objects.count
@@ -69,7 +66,7 @@ extension EmployeeProfileViewController: UITableViewDelegate, UITableViewDataSou
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 50
+        return 40
     }
     
 }

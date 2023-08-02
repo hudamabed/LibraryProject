@@ -10,7 +10,7 @@ import UIKit
 class BooksViewController: UIViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
-    
+
     var objects: [Book] = []
     
     override func viewDidLoad() {
@@ -34,8 +34,9 @@ class BooksViewController: UIViewController {
 //                    vc.pushWithoutAnimated()
 //                }
 //        }
-        let vc = UIStoryboard.mainStorybored.instantiateViewController(withIdentifier: "MenuViewController")
-        vc.push()
+       
+            let vc = UIStoryboard.mainStorybored.instantiateViewController(withIdentifier: "MenuViewController")
+            vc.push()
         
     }
 }

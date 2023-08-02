@@ -37,7 +37,7 @@ class MenuViewController: UIViewController {
 //    }
 //
     @IBAction func btnCancel(_ sender: Any) {
-        self.navigationController?.popViewController(animated: false)
+        self.navigationController?.popViewController(animated: true)
         
     }
     @IBAction func btnLogout(_ sender: Any) {
