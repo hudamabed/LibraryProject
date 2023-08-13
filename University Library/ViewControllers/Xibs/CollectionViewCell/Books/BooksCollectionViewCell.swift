@@ -25,7 +25,7 @@ class BooksCollectionViewCell: UICollectionViewCell {
             imgBook.image = UIImage.init(named: object.bookImage ?? "")
             lblTitle.text = object.title
             lblAuthor.text = object.authorName
-            stackView.backgroundColor = UIColor(named: object.backgroundColor ?? "")?.withAlphaComponent(0.16)
+            stackView.backgroundColor = UIColor(named: object.backgroundColor ?? "")?.withAlphaComponent(0.5)
             lblTitle.textColor = UIColor(named: object.color ?? "")
             lblAuthor.textColor = UIColor(named: object.color ?? "")
             btnDelete.tintColor = UIColor(named: object.color ?? "")

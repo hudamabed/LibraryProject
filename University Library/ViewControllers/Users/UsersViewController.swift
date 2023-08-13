@@ -1,13 +1,14 @@
+
 //
-//  AddBookViewController.swift
+//  UsersViewController.swift
 //  University Library
 //
-//  Created by Huda M. A'abed on 24/07/2023.
+//  Created by Huda M. A'abed on 13/08/2023.
 //
 
 import UIKit
 
-class AddBookViewController: UIViewController {
+class UsersViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,12 +23,11 @@ class AddBookViewController: UIViewController {
     }
 }
 
-extension AddBookViewController {
+extension UsersViewController {
     func setupView(){
     }
     
     func localized(){
-        self.title = "Add New Book"
     }
     
     func setupData(){
@@ -39,7 +39,7 @@ extension AddBookViewController {
 
 
 
-extension AddBookViewController {
+extension UsersViewController {
     
     
     

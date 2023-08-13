@@ -17,6 +17,7 @@
 		923823F32A6D2B22008EF414 /* UIViewControllerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923823F22A6D2B22008EF414 /* UIViewControllerEx.swift */; };
 		923823F62A6D36EC008EF414 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923823F52A6D36EC008EF414 /* UserProfile.swift */; };
 		923823F82A6D4284008EF414 /* GlobalConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923823F72A6D4284008EF414 /* GlobalConstant.swift */; };
+		924ABB102A8972F700B25F75 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924ABB0F2A8972F700B25F75 /* UsersViewController.swift */; };
 		924C3C1E2A66EA7E00DF5E19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924C3C1D2A66EA7E00DF5E19 /* AppDelegate.swift */; };
 		924C3C202A66EA7E00DF5E19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924C3C1F2A66EA7E00DF5E19 /* SceneDelegate.swift */; };
 		924C3C222A66EA7E00DF5E19 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924C3C212A66EA7E00DF5E19 /* IntroViewController.swift */; };
@@ -62,6 +63,7 @@
 		923823F22A6D2B22008EF414 /* UIViewControllerEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerEx.swift; path = ../../../../IOSCourse/IOSCourse/Utils/Extensions/UIViewControllerEx.swift; sourceTree = "<group>"; };
 		923823F52A6D36EC008EF414 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		923823F72A6D4284008EF414 /* GlobalConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstant.swift; sourceTree = "<group>"; };
+		924ABB0F2A8972F700B25F75 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		924C3C1A2A66EA7E00DF5E19 /* University Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "University Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		924C3C1D2A66EA7E00DF5E19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		924C3C1F2A66EA7E00DF5E19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,13 +120,6 @@
 			path = "Add Employee";
 			sourceTree = "<group>";
 		};
-		9212379D2A73CB3000F14ABA /* Add Student */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Add Student";
-			sourceTree = "<group>";
-		};
 		923823E92A6C75AC008EF414 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,12 +154,20 @@
 			path = User;
 			sourceTree = "<group>";
 		};
-		924145942A7AB09A00B1A48B /* Add Student1 */ = {
+		924145942A7AB09A00B1A48B /* Add Student */ = {
 			isa = PBXGroup;
 			children = (
 				9212379E2A73CB5A00F14ABA /* AddStudentViewController.swift */,
 			);
-			path = "Add Student1";
+			path = "Add Student";
+			sourceTree = "<group>";
+		};
+		924ABB0E2A8972DA00B25F75 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				924ABB0F2A8972F700B25F75 /* UsersViewController.swift */,
+			);
+			path = Users;
 			sourceTree = "<group>";
 		};
 		924C3C112A66EA7E00DF5E19 = {
@@ -220,6 +223,7 @@
 				9295C5402A6EF1F90067D27F /* Book Details */,
 				9295C53F2A6EF1960067D27F /* Change Password */,
 				9295C5412A6EF2120067D27F /* Employee Profile */,
+				924ABB0E2A8972DA00B25F75 /* Users */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -365,8 +369,7 @@
 		9295C5592A715D9E0067D27F /* Add */ = {
 			isa = PBXGroup;
 			children = (
-				924145942A7AB09A00B1A48B /* Add Student1 */,
-				9212379D2A73CB3000F14ABA /* Add Student */,
+				924145942A7AB09A00B1A48B /* Add Student */,
 				9212379A2A73C80500F14ABA /* Add Employee */,
 				9295C55A2A715DB20067D27F /* Add Doctor */,
 				9295C53C2A6ED1130067D27F /* Add Book */,
@@ -533,6 +536,7 @@
 				92F3071F2A6AE719008CA53E /* BooksCollectionViewCell.swift in Sources */,
 				924FB1022A672ADE0015AB44 /* UIButtonEx.swift in Sources */,
 				924FB0FE2A672ADE0015AB44 /* UIResponderEx.swift in Sources */,
+				924ABB102A8972F700B25F75 /* UsersViewController.swift in Sources */,
 				9295C5502A6FF0CF0067D27F /* BookDetailsTableViewCell.swift in Sources */,
 				924C3C202A66EA7E00DF5E19 /* SceneDelegate.swift in Sources */,
 				924FB1042A672ADE0015AB44 /* UIStringEx.swift in Sources */,

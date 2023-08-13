@@ -65,9 +65,10 @@ class MenuViewController: UIViewController {
         self.objects.append(.addDoctor)
         self.objects.append(.addStudent)
         self.objects.append(.addEmployee)
-        self.objects.append(.editBook)
+        self.objects.append(.editEmployee)
         self.objects.append(.editDoctor)
         self.objects.append(.editStudent)
+        self.objects.append(.users)
         self.tableView.reloadData()
 
     }
@@ -101,6 +102,8 @@ extension MenuViewController: UITableViewDelegate, UITableViewDataSource {
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5 ){
         self.dismiss(animated: true){
             switch obj{
+            case .users:
+                break
             case .addBook:
                 let vc = UIStoryboard.mainStorybored.instantiateViewController(withIdentifier: "AddBookViewController")
                 vc.push()
@@ -117,7 +120,7 @@ extension MenuViewController: UITableViewDelegate, UITableViewDataSource {
                 let vc = UIStoryboard.mainStorybored.instantiateViewController(withIdentifier: "AddStudentViewController")
                 vc.push()
                 break
-            case .editBook:
+            case .editEmployee:
                 break
             case .editDoctor:
                 break

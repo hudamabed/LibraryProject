@@ -27,7 +27,7 @@ import UIKit
         }
         
         func localized(){
-            self.title = "Add Student"
+            self.title = "Add New Student"
 
         }
         

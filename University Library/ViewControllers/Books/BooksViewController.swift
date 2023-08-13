@@ -44,13 +44,13 @@ class BooksViewController: UIViewController {
 extension BooksViewController {
     func setupView(){
         collectionView?.registerXib(cell: BooksCollectionViewCell.self)
-        objects.append(Book.init(title: "Carrie", authorName:"Stephen King", backgroundColor: "", color: "415EB6", bookImage: "books", btnCancel: "icBlueMoreOption"))
+        objects.append(Book.init(title: "Carrie", authorName:"Stephen King", backgroundColor: "EEF7FE", color: "415EB6", bookImage: "books", btnCancel: "icBlueMoreOption"))
         objects.append(Book.init(title: "1984", authorName:"George Orwell", backgroundColor: "F0FFFF", color: "23B0B0", bookImage: "books", btnCancel: "icGreenMoreOption"))
-        objects.append(Book.init(title: "Neverwhere", authorName:"Jane Austen", backgroundColor: "EEF7FE", color: "23B0B0", bookImage: "books", btnCancel: "icGreenMoreOption"))
-        objects.append(Book.init(title: "The Great Gatsby", authorName:"F. Scott Fitzgerald", backgroundColor: "F0FFFF", color: "415EB6", bookImage : "books", btnCancel: "icBlueMoreOption"))
+        objects.append(Book.init(title: "Neverwhere", authorName:"Jane Austen", backgroundColor: "F0FFFF", color: "23B0B0", bookImage: "books", btnCancel: "icGreenMoreOption"))
+        objects.append(Book.init(title: "The Great Gatsby", authorName:"F. Scott Fitzgerald", backgroundColor: "EEF7FE", color: "415EB6", bookImage : "books", btnCancel: "icBlueMoreOption"))
         objects.append(Book.init(title: "Sapiens", authorName:"J.R.R. Tolkien", backgroundColor: "EEF7FE", color: "415EB6", bookImage: "books", btnCancel: "icBlueMoreOption"))
         objects.append(Book.init(title: "Fahrenheit 451", authorName:"J.K. Rowling", backgroundColor: "F0FFFF", color: "23B0B0", bookImage: "books", btnCancel: "icGreenMoreOption"))
-        objects.append(Book.init(title: "Becoming", authorName:"C.S. Lewis", backgroundColor: "EEF7FE", color: "23B0B0", bookImage: "books", btnCancel: "icGreenMoreOption"))
+        objects.append(Book.init(title: "Becoming", authorName:"C.S. Lewis", backgroundColor: "F0FFFF", color: "23B0B0", bookImage: "books", btnCancel: "icGreenMoreOption"))
         objects.append(Book.init(title: "Dune", authorName:"J.D. Salinger", backgroundColor: "EEF7FE", color: "415EB6", bookImage: "books", btnCancel: "icBlueMoreOption"))
         objects.append(Book.init(title: "To Kill a Kingdom", authorName:"Harper Lee", backgroundColor: "EEF7FE", color: "415EB6", bookImage: "books", btnCancel: "icBlueMoreOption"))
         objects.append(Book.init(title: "Animal Farm", authorName:"Alexandra Christo", backgroundColor: "F0FFFF", color: "23B0B0", bookImage: "books", btnCancel: "icGreenMoreOption"))
@@ -83,7 +83,9 @@ extension BooksViewController: UICollectionViewDelegate, UICollectionViewDataSou
             return cell
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let vc = UIStoryboard.mainStorybored.instantiateViewController(withIdentifier: "BookDetailsViewController")
+        let selectedBook = objects[indexPath.row]
+        let vc = UIStoryboard.mainStorybored.instantiateViewController(withIdentifier: "BookDetailsViewController") as! BookDetailsViewController
+        vc.selectedBook = selectedBook
         vc.push()
     }
     }

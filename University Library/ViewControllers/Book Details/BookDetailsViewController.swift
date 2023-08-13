@@ -9,6 +9,7 @@ import UIKit
 class BookDetailsViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
+    var selectedBook: Book?
     var objects: [Details] = []
     
     override func viewDidLoad() {
@@ -34,8 +35,8 @@ extension BookDetailsViewController {
     }
     
     func setupData(){
-        objects.append(Details.init(key: "Book Name", value: "Becoming", colorKey: "22215B", colorValue: "415EB6"))
-        objects.append(Details.init(key: "Author Name", value: "Michelle Obama", colorKey: "22215B", colorValue: "415EB6"))
+        objects.append(Details.init(key: "Book Name", value: selectedBook?.title, colorKey: "22215B", colorValue: "415EB6"))
+        objects.append(Details.init(key: "Author Name", value: selectedBook?.authorName, colorKey: "22215B", colorValue: "415EB6"))
         objects.append(Details.init(key: "Published year", value: "2019", colorKey: "22215B", colorValue: "415EB6"))
         objects.append(Details.init(key: "Number of copies", value: "4", colorKey: "22215B", colorValue: "415EB6"))
     }

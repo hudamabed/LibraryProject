@@ -26,7 +26,7 @@ extension AddEmployeeViewController {
     }
     
     func localized(){
-        self.title = "Add Employee"
+        self.title = "Add New Employee"
         
     }
     

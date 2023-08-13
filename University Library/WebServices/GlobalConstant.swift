@@ -11,16 +11,19 @@ import UIKit
 class GlobalConstant{
     
     enum Menu{
+        case users
         case addBook
         case addStudent
         case addDoctor
         case addEmployee
-        case editBook
+        case editEmployee
         case editStudent
         case editDoctor
        
         var name: String{
             switch self {
+            case .users:
+                return "Users"
             case .addBook:
                 return "Add Book"
             case .addStudent:
@@ -29,8 +32,8 @@ class GlobalConstant{
                 return "Add Doctor"
             case .addEmployee:
                 return "Add Employee"
-            case .editBook:
-                return "Edit Book"
+            case .editEmployee:
+                return "editEmployee"
             case .editStudent:
                 return "Edit Student"
             case .editDoctor:
