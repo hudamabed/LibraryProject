@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9212379C2A73C82300F14ABA /* AddEmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212379B2A73C82300F14ABA /* AddEmployeeViewController.swift */; };
-		9212379F2A73CB5A00F14ABA /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212379E2A73CB5A00F14ABA /* AddStudentViewController.swift */; };
 		921FD05C2A684E3F009BFC47 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921FD05B2A684E3F009BFC47 /* LoginViewController.swift */; };
 		923823E82A6C75A4008EF414 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923823E72A6C75A4008EF414 /* MenuViewController.swift */; };
 		923823EE2A6C7A56008EF414 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923823EC2A6C7A56008EF414 /* MenuTableViewCell.swift */; };
@@ -17,6 +16,7 @@
 		923823F32A6D2B22008EF414 /* UIViewControllerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923823F22A6D2B22008EF414 /* UIViewControllerEx.swift */; };
 		923823F62A6D36EC008EF414 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923823F52A6D36EC008EF414 /* UserProfile.swift */; };
 		923823F82A6D4284008EF414 /* GlobalConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923823F72A6D4284008EF414 /* GlobalConstant.swift */; };
+		9239052F2A8A299800EAB3AB /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9239052E2A8A299800EAB3AB /* AddStudentViewController.swift */; };
 		924ABB102A8972F700B25F75 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924ABB0F2A8972F700B25F75 /* UsersViewController.swift */; };
 		924C3C1E2A66EA7E00DF5E19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924C3C1D2A66EA7E00DF5E19 /* AppDelegate.swift */; };
 		924C3C202A66EA7E00DF5E19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924C3C1F2A66EA7E00DF5E19 /* SceneDelegate.swift */; };
@@ -54,7 +54,6 @@
 
 /* Begin PBXFileReference section */
 		9212379B2A73C82300F14ABA /* AddEmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmployeeViewController.swift; sourceTree = "<group>"; };
-		9212379E2A73CB5A00F14ABA /* AddStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddStudentViewController.swift; path = "University Library/ViewControllers/Add/Add Student1/AddStudentViewController.swift"; sourceTree = SOURCE_ROOT; };
 		921FD05B2A684E3F009BFC47 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		923823E72A6C75A4008EF414 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		923823EC2A6C7A56008EF414 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
@@ -63,6 +62,7 @@
 		923823F22A6D2B22008EF414 /* UIViewControllerEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerEx.swift; path = ../../../../IOSCourse/IOSCourse/Utils/Extensions/UIViewControllerEx.swift; sourceTree = "<group>"; };
 		923823F52A6D36EC008EF414 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		923823F72A6D4284008EF414 /* GlobalConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstant.swift; sourceTree = "<group>"; };
+		9239052E2A8A299800EAB3AB /* AddStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
 		924ABB0F2A8972F700B25F75 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		924C3C1A2A66EA7E00DF5E19 /* University Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "University Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		924C3C1D2A66EA7E00DF5E19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -157,7 +157,7 @@
 		924145942A7AB09A00B1A48B /* Add Student */ = {
 			isa = PBXGroup;
 			children = (
-				9212379E2A73CB5A00F14ABA /* AddStudentViewController.swift */,
+				9239052E2A8A299800EAB3AB /* AddStudentViewController.swift */,
 			);
 			path = "Add Student";
 			sourceTree = "<group>";
@@ -512,7 +512,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				921FD05C2A684E3F009BFC47 /* LoginViewController.swift in Sources */,
-				9212379F2A73CB5A00F14ABA /* AddStudentViewController.swift in Sources */,
 				9295C5462A6EF2760067D27F /* BookDetailsViewController.swift in Sources */,
 				9295C5432A6EF2550067D27F /* changePasswordViewController.swift in Sources */,
 				92B8271F2A719BA3002A1CB0 /* EmployeeProfileTableViewCell.swift in Sources */,
@@ -521,6 +520,7 @@
 				924FB0F82A672ADE0015AB44 /* UITableViewEx.swift in Sources */,
 				924FB0F92A672ADE0015AB44 /* UIStoryboredEx.swift in Sources */,
 				92F307232A6AEC2E008CA53E /* BooksViewController.swift in Sources */,
+				9239052F2A8A299800EAB3AB /* AddStudentViewController.swift in Sources */,
 				923823F82A6D4284008EF414 /* GlobalConstant.swift in Sources */,
 				924FB0FF2A672ADE0015AB44 /* UITextField.swift in Sources */,
 				9295C5482A6EF2890067D27F /* EmployeeProfileViewController.swift in Sources */,
