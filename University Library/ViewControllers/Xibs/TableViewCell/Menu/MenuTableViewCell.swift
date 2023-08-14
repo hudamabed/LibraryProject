@@ -9,15 +9,13 @@ import UIKit
 
 class MenuTableViewCell: UITableViewCell {
 
-    
     @IBOutlet weak var lblTitle: UILabel!
-    
     
     var object: GlobalConstant.Menu?
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
     }
 
     func configureCell(){

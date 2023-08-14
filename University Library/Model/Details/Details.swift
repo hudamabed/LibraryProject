@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 class Details{
     var key: String?
     var value: String?

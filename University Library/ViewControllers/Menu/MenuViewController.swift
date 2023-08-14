@@ -103,6 +103,8 @@ extension MenuViewController: UITableViewDelegate, UITableViewDataSource {
         self.dismiss(animated: true){
             switch obj{
             case .users:
+                let vc = UIStoryboard.mainStorybored.instantiateViewController(withIdentifier: "UsersViewController")
+                vc.push()
                 break
             case .addBook:
                 let vc = UIStoryboard.mainStorybored.instantiateViewController(withIdentifier: "AddBookViewController")

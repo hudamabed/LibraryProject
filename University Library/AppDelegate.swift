@@ -9,7 +9,6 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     static let shared = UIApplication.shared.delegate as? AppDelegate
     var rootNavigationController : MainNavigationViewController?
 

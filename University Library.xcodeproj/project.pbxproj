@@ -17,6 +17,12 @@
 		923823F62A6D36EC008EF414 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923823F52A6D36EC008EF414 /* UserProfile.swift */; };
 		923823F82A6D4284008EF414 /* GlobalConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923823F72A6D4284008EF414 /* GlobalConstant.swift */; };
 		9239052F2A8A299800EAB3AB /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9239052E2A8A299800EAB3AB /* AddStudentViewController.swift */; };
+		923905322A8A2CF800EAB3AB /* Users.xib in Resources */ = {isa = PBXBuildFile; fileRef = 923905312A8A2CF800EAB3AB /* Users.xib */; };
+		923905342A8A2D1F00EAB3AB /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923905332A8A2D1F00EAB3AB /* Users.swift */; };
+		923905372A8A4A3D00EAB3AB /* UsersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923905352A8A4A3D00EAB3AB /* UsersTableViewCell.swift */; };
+		923905382A8A4A3D00EAB3AB /* UsersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 923905362A8A4A3D00EAB3AB /* UsersTableViewCell.xib */; };
+		9239053E2A8AC8D300EAB3AB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9239053D2A8AC8D300EAB3AB /* User.swift */; };
+		923905412A8ACE3E00EAB3AB /* UserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923905402A8ACE3E00EAB3AB /* UserType.swift */; };
 		924ABB102A8972F700B25F75 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924ABB0F2A8972F700B25F75 /* UsersViewController.swift */; };
 		924C3C1E2A66EA7E00DF5E19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924C3C1D2A66EA7E00DF5E19 /* AppDelegate.swift */; };
 		924C3C202A66EA7E00DF5E19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924C3C1F2A66EA7E00DF5E19 /* SceneDelegate.swift */; };
@@ -63,6 +69,12 @@
 		923823F52A6D36EC008EF414 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		923823F72A6D4284008EF414 /* GlobalConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstant.swift; sourceTree = "<group>"; };
 		9239052E2A8A299800EAB3AB /* AddStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
+		923905312A8A2CF800EAB3AB /* Users.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Users.xib; sourceTree = "<group>"; };
+		923905332A8A2D1F00EAB3AB /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		923905352A8A4A3D00EAB3AB /* UsersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewCell.swift; sourceTree = "<group>"; };
+		923905362A8A4A3D00EAB3AB /* UsersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsersTableViewCell.xib; sourceTree = "<group>"; };
+		9239053D2A8AC8D300EAB3AB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		923905402A8ACE3E00EAB3AB /* UserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserType.swift; sourceTree = "<group>"; };
 		924ABB0F2A8972F700B25F75 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		924C3C1A2A66EA7E00DF5E19 /* University Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "University Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		924C3C1D2A66EA7E00DF5E19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -142,6 +154,7 @@
 				92B8271C2A719B78002A1CB0 /* Employee Profile */,
 				9295C5492A6FEFE70067D27F /* Book Details */,
 				9295C5362A6EA6920067D27F /* Menu */,
+				923905392A8A4A4700EAB3AB /* Users */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -152,6 +165,40 @@
 				923823F52A6D36EC008EF414 /* UserProfile.swift */,
 			);
 			path = User;
+			sourceTree = "<group>";
+		};
+		923905302A8A2CC200EAB3AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				923905312A8A2CF800EAB3AB /* Users.xib */,
+				923905332A8A2D1F00EAB3AB /* Users.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		923905392A8A4A4700EAB3AB /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				923905352A8A4A3D00EAB3AB /* UsersTableViewCell.swift */,
+				923905362A8A4A3D00EAB3AB /* UsersTableViewCell.xib */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		9239053A2A8AC84200EAB3AB /* ShowUsers */ = {
+			isa = PBXGroup;
+			children = (
+				9239053D2A8AC8D300EAB3AB /* User.swift */,
+			);
+			path = ShowUsers;
+			sourceTree = "<group>";
+		};
+		9239053F2A8ACE1900EAB3AB /* UserType */ = {
+			isa = PBXGroup;
+			children = (
+				923905402A8ACE3E00EAB3AB /* UserType.swift */,
+			);
+			path = UserType;
 			sourceTree = "<group>";
 		};
 		924145942A7AB09A00B1A48B /* Add Student */ = {
@@ -262,6 +309,8 @@
 		924C3C3A2A66ECCC00DF5E19 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9239053F2A8ACE1900EAB3AB /* UserType */,
+				9239053A2A8AC84200EAB3AB /* ShowUsers */,
 				9295C5542A71310D0067D27F /* Details */,
 				9295C5532A7131030067D27F /* Book */,
 				923823F42A6D36D6008EF414 /* User */,
@@ -397,6 +446,7 @@
 		92F307172A6AC13A008CA53E /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
+				923905302A8A2CC200EAB3AB /* Views */,
 				923823EB2A6C7A1D008EF414 /* TableViewCell */,
 				923823EA2A6C79EF008EF414 /* CollectionViewCell */,
 			);
@@ -496,8 +546,10 @@
 			files = (
 				9295C5512A6FF0CF0067D27F /* BookDetailsTableViewCell.xib in Resources */,
 				924C3C2A2A66EA7F00DF5E19 /* LaunchScreen.storyboard in Resources */,
+				923905382A8A4A3D00EAB3AB /* UsersTableViewCell.xib in Resources */,
 				92F307202A6AE719008CA53E /* BooksCollectionViewCell.xib in Resources */,
 				924C3C272A66EA7F00DF5E19 /* Assets.xcassets in Resources */,
+				923905322A8A2CF800EAB3AB /* Users.xib in Resources */,
 				92B827202A719BA3002A1CB0 /* EmployeeProfileTableViewCell.xib in Resources */,
 				923823EF2A6C7A56008EF414 /* MenuTableViewCell.xib in Resources */,
 				924C3C252A66EA7E00DF5E19 /* Main.storyboard in Resources */,
@@ -533,9 +585,13 @@
 				924FB0FC2A672ADE0015AB44 /* UIColorEx.swift in Sources */,
 				924C3C1E2A66EA7E00DF5E19 /* AppDelegate.swift in Sources */,
 				9295C53E2A6ED1A10067D27F /* AddBookViewController.swift in Sources */,
+				9239053E2A8AC8D300EAB3AB /* User.swift in Sources */,
+				923905372A8A4A3D00EAB3AB /* UsersTableViewCell.swift in Sources */,
 				92F3071F2A6AE719008CA53E /* BooksCollectionViewCell.swift in Sources */,
 				924FB1022A672ADE0015AB44 /* UIButtonEx.swift in Sources */,
+				923905412A8ACE3E00EAB3AB /* UserType.swift in Sources */,
 				924FB0FE2A672ADE0015AB44 /* UIResponderEx.swift in Sources */,
+				923905342A8A2D1F00EAB3AB /* Users.swift in Sources */,
 				924ABB102A8972F700B25F75 /* UsersViewController.swift in Sources */,
 				9295C5502A6FF0CF0067D27F /* BookDetailsTableViewCell.swift in Sources */,
 				924C3C202A66EA7E00DF5E19 /* SceneDelegate.swift in Sources */,
