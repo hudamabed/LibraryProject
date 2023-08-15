@@ -11,7 +11,6 @@ import UIKit
 class UsersViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
-    
     var objects: [(header: Any, items: [Any])] = []
 
     override func viewDidLoad() {
@@ -63,7 +62,7 @@ extension UsersViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: UsersTableViewCell = tableView.dequeueReusableCell(withIdentifier: UsersTableViewCell.id, for: indexPath) as! UsersTableViewCell
         let obj = self.objects[indexPath.section].items[indexPath.row] as? String
-        cell.object = obj 
+        cell.object = obj
         cell.configureCell()
         return cell
     }
@@ -82,5 +81,16 @@ extension UsersViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didHighlightRowAt indexPath: IndexPath) {
          50
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let selectedUser = self.objects[indexPath.section].items[indexPath.row] as? String
+        self.navigationController?.popViewController(animated: false)
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5){
+            self.dismiss(animated: true){
+                let vc = UIStoryboard.mainStorybored.instantiateViewController(withIdentifier: "UserDetailsViewController")
+              //vc.selectedUser = selectedUser
+                vc.push()
+                }
+             }
+        }
+    }
     
-}

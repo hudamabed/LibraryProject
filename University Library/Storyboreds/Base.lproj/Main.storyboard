@@ -571,12 +571,12 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="860" y="814"/>
+            <point key="canvasLocation" x="3917" y="11"/>
         </scene>
-        <!--View Controller-->
+        <!--User Details View Controller-->
         <scene sceneID="6ew-2D-T9A">
             <objects>
-                <viewController id="lgh-wQ-l9E" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UserDetailsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="lgh-wQ-l9E" customClass="UserDetailsViewController" customModule="University_Library" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ld3-KC-Ff8">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -586,7 +586,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s2J-Xd-2B2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3975" y="11"/>
+            <point key="canvasLocation" x="3130" y="814"/>
         </scene>
         <!--Users View Controller-->
         <scene sceneID="Eav-r9-0fK">
@@ -625,7 +625,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gF7-1m-A9N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3130" y="814"/>
+            <point key="canvasLocation" x="2399" y="814"/>
         </scene>
         <!--Add Book View Controller-->
         <scene sceneID="uqS-WV-ff7">
@@ -936,7 +936,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DHF-uc-2u5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1598" y="814"/>
+            <point key="canvasLocation" x="860" y="814"/>
         </scene>
         <!--Main Navigation View Controller-->
         <scene sceneID="C2P-D4-P1J">
@@ -1090,7 +1090,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ffr-aW-hm1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2399" y="814"/>
+            <point key="canvasLocation" x="1598" y="814"/>
         </scene>
         <!--Add Employee View Controller-->
         <scene sceneID="hDl-4K-cvx">

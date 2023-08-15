@@ -22,7 +22,7 @@
 		923905372A8A4A3D00EAB3AB /* UsersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923905352A8A4A3D00EAB3AB /* UsersTableViewCell.swift */; };
 		923905382A8A4A3D00EAB3AB /* UsersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 923905362A8A4A3D00EAB3AB /* UsersTableViewCell.xib */; };
 		9239053E2A8AC8D300EAB3AB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9239053D2A8AC8D300EAB3AB /* User.swift */; };
-		923905412A8ACE3E00EAB3AB /* UserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923905402A8ACE3E00EAB3AB /* UserType.swift */; };
+		923905412A8ACE3E00EAB3AB /* StudentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923905402A8ACE3E00EAB3AB /* StudentInfo.swift */; };
 		924ABB102A8972F700B25F75 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924ABB0F2A8972F700B25F75 /* UsersViewController.swift */; };
 		924C3C1E2A66EA7E00DF5E19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924C3C1D2A66EA7E00DF5E19 /* AppDelegate.swift */; };
 		924C3C202A66EA7E00DF5E19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924C3C1F2A66EA7E00DF5E19 /* SceneDelegate.swift */; };
@@ -53,6 +53,7 @@
 		9295C5582A7131310067D27F /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295C5572A7131310067D27F /* Book.swift */; };
 		92B8271F2A719BA3002A1CB0 /* EmployeeProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B8271D2A719BA3002A1CB0 /* EmployeeProfileTableViewCell.swift */; };
 		92B827202A719BA3002A1CB0 /* EmployeeProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92B8271E2A719BA3002A1CB0 /* EmployeeProfileTableViewCell.xib */; };
+		92D339702A8B62630092062C /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3396F2A8B62630092062C /* UserDetailsViewController.swift */; };
 		92F3071F2A6AE719008CA53E /* BooksCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F3071D2A6AE719008CA53E /* BooksCollectionViewCell.swift */; };
 		92F307202A6AE719008CA53E /* BooksCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92F3071E2A6AE719008CA53E /* BooksCollectionViewCell.xib */; };
 		92F307232A6AEC2E008CA53E /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F307222A6AEC2E008CA53E /* BooksViewController.swift */; };
@@ -74,7 +75,7 @@
 		923905352A8A4A3D00EAB3AB /* UsersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewCell.swift; sourceTree = "<group>"; };
 		923905362A8A4A3D00EAB3AB /* UsersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsersTableViewCell.xib; sourceTree = "<group>"; };
 		9239053D2A8AC8D300EAB3AB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		923905402A8ACE3E00EAB3AB /* UserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserType.swift; sourceTree = "<group>"; };
+		923905402A8ACE3E00EAB3AB /* StudentInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentInfo.swift; sourceTree = "<group>"; };
 		924ABB0F2A8972F700B25F75 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		924C3C1A2A66EA7E00DF5E19 /* University Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "University Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		924C3C1D2A66EA7E00DF5E19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +109,7 @@
 		9295C5602A715E360067D27F /* AddDoctorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDoctorViewController.swift; sourceTree = "<group>"; };
 		92B8271D2A719BA3002A1CB0 /* EmployeeProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeProfileTableViewCell.swift; sourceTree = "<group>"; };
 		92B8271E2A719BA3002A1CB0 /* EmployeeProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeProfileTableViewCell.xib; sourceTree = "<group>"; };
+		92D3396F2A8B62630092062C /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
 		92F3071D2A6AE719008CA53E /* BooksCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksCollectionViewCell.swift; sourceTree = "<group>"; };
 		92F3071E2A6AE719008CA53E /* BooksCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BooksCollectionViewCell.xib; sourceTree = "<group>"; };
 		92F307222A6AEC2E008CA53E /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
@@ -159,12 +161,12 @@
 			path = TableViewCell;
 			sourceTree = "<group>";
 		};
-		923823F42A6D36D6008EF414 /* User */ = {
+		923823F42A6D36D6008EF414 /* User Profile */ = {
 			isa = PBXGroup;
 			children = (
 				923823F52A6D36EC008EF414 /* UserProfile.swift */,
 			);
-			path = User;
+			path = "User Profile";
 			sourceTree = "<group>";
 		};
 		923905302A8A2CC200EAB3AB /* Views */ = {
@@ -185,20 +187,20 @@
 			path = Users;
 			sourceTree = "<group>";
 		};
-		9239053A2A8AC84200EAB3AB /* ShowUsers */ = {
+		9239053A2A8AC84200EAB3AB /* Users Info */ = {
 			isa = PBXGroup;
 			children = (
 				9239053D2A8AC8D300EAB3AB /* User.swift */,
 			);
-			path = ShowUsers;
+			path = "Users Info";
 			sourceTree = "<group>";
 		};
-		9239053F2A8ACE1900EAB3AB /* UserType */ = {
+		9239053F2A8ACE1900EAB3AB /* User Info */ = {
 			isa = PBXGroup;
 			children = (
-				923905402A8ACE3E00EAB3AB /* UserType.swift */,
+				923905402A8ACE3E00EAB3AB /* StudentInfo.swift */,
 			);
-			path = UserType;
+			path = "User Info";
 			sourceTree = "<group>";
 		};
 		924145942A7AB09A00B1A48B /* Add Student */ = {
@@ -271,6 +273,7 @@
 				9295C53F2A6EF1960067D27F /* Change Password */,
 				9295C5412A6EF2120067D27F /* Employee Profile */,
 				924ABB0E2A8972DA00B25F75 /* Users */,
+				92D3396E2A8B62310092062C /* User Details */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -309,11 +312,11 @@
 		924C3C3A2A66ECCC00DF5E19 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				9239053F2A8ACE1900EAB3AB /* UserType */,
-				9239053A2A8AC84200EAB3AB /* ShowUsers */,
+				9239053F2A8ACE1900EAB3AB /* User Info */,
+				9239053A2A8AC84200EAB3AB /* Users Info */,
 				9295C5542A71310D0067D27F /* Details */,
 				9295C5532A7131030067D27F /* Book */,
-				923823F42A6D36D6008EF414 /* User */,
+				923823F42A6D36D6008EF414 /* User Profile */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -441,6 +444,14 @@
 				92B8271E2A719BA3002A1CB0 /* EmployeeProfileTableViewCell.xib */,
 			);
 			path = "Employee Profile";
+			sourceTree = "<group>";
+		};
+		92D3396E2A8B62310092062C /* User Details */ = {
+			isa = PBXGroup;
+			children = (
+				92D3396F2A8B62630092062C /* UserDetailsViewController.swift */,
+			);
+			path = "User Details";
 			sourceTree = "<group>";
 		};
 		92F307172A6AC13A008CA53E /* Xibs */ = {
@@ -589,7 +600,8 @@
 				923905372A8A4A3D00EAB3AB /* UsersTableViewCell.swift in Sources */,
 				92F3071F2A6AE719008CA53E /* BooksCollectionViewCell.swift in Sources */,
 				924FB1022A672ADE0015AB44 /* UIButtonEx.swift in Sources */,
-				923905412A8ACE3E00EAB3AB /* UserType.swift in Sources */,
+				923905412A8ACE3E00EAB3AB /* StudentInfo.swift in Sources */,
+				92D339702A8B62630092062C /* UserDetailsViewController.swift in Sources */,
 				924FB0FE2A672ADE0015AB44 /* UIResponderEx.swift in Sources */,
 				923905342A8A2D1F00EAB3AB /* Users.swift in Sources */,
 				924ABB102A8972F700B25F75 /* UsersViewController.swift in Sources */,
